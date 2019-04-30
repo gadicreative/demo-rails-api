@@ -5,6 +5,7 @@ class HomeController < ApplicationController
 
 private
   def data
+    [
     {
       state: "State",
       name: "Agency",
@@ -12,5 +13,6 @@ private
       url: "url",
       email: "email"
     }
+    ]
   end
 end
